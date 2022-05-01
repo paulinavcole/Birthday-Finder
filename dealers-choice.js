@@ -14,3 +14,4 @@ setInterval(() => {
      else { currentImage += 1; }
      images[currentImage].classList.remove("hidden");
      }, 4000);
+
