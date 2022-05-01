@@ -1,143 +1,155 @@
 body {
-    color:lightyellow;
-    background-color:rgb(50, 47, 47);
-
+  color: lightyellow;
+  background-color: rgb(50, 47, 47);
 }
 
 .nav {
-    list-style-type: none;
-    padding:0;
-    display:flex;
-    background-color:rgb(50, 47, 47);
-    align-items: center;
-    width:100%;
-    height: 60px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  background-color: rgb(50, 47, 47);
+  align-items: center;
+  width: 100%;
+  height: 60px;
 }
 
 .nav li {
-    flex: 1;
-    justify-content: space-around;
+  flex: 1;
+  justify-content: space-around;
 }
 
 .nav a {
-    font-size: 1.6em;
-    font-family: 'Berkshire Swash', cursive;
-    color: lightyellow;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-    transition: color 1s, background-color 0.5s;
+  font-size: 1.6em;
+  font-family: 'Berkshire Swash', cursive;
+  color: lightyellow;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: color 1s, background-color 0.5s;
 }
 
 .nav a:hover {
-    color: #202b47;
-    background-color: #fff;
-    box-shadow: #d3d3d3;
-  }
+  color: #202b47;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
 
-  #carousel {
-    height: 100vh; text-align: center; 
-   }
-  
-  #carousel img {
-    height: 100%; width: 100%; 
-   }
-  
-  #carousel .carousel-image {
-    position: absolute; display: block; margin: auto; min-width: 60%; height: 75%; opacity: 1; transition: opacity 1.5s; 
-    border: black 10px solid;
-   } 
-  
-  #carousel .carousel-image.hidden {
-    opacity: 0; 
-   }
+#carousel {
+  height: 100vh;
+  text-align: center;
+}
 
-   #carousel-text {
-    position: absolute; top: 40%; width: 100%; color: white; font-size: 2.5em; text-shadow: 2px 2px black; z-index: 1; 
-    font-family: 'Pacifico', cursive;
+#carousel img {
+  height: 100%;
+  width: 97%;
+}
 
-   }
+#carousel .carousel-image {
+  position: absolute;
+  display: block;
+  margin: auto;
+  min-width: 60%;
+  height: 75%;
+  opacity: 1;
+  transition: opacity 1.5s;
+  border: black 10px solid;
+}
+
+#carousel .carousel-image.hidden {
+  opacity: 0;
+}
+
+#carousel-text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 2px 2px black;
+  z-index: 1;
+  font-family: 'Pacifico', cursive;
+}
 
 .signs {
-    display:flex;
-    background-color:rgb(50, 47, 47);
-    border: black 10px solid; 
+  display: flex;
+  background-color: rgb(50, 47, 47);
+  border: black 10px solid;
 }
-
-.col{
-    flex: 1;
-}
-
 
 .signs a {
-    font-size: 1.6em;
-    font-family: 'Berkshire Swash', cursive;
-    color: lightyellow;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-    transition: color 1s, background-color 0.5s;
+  font-size: 1.6em;
+  font-family: 'Berkshire Swash', cursive;
+  color: lightyellow;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: color 1s, background-color 0.5s;
 }
 
 .signs a:hover {
-    color: #202b47;
-    background-color: #fff;
-    box-shadow: #d3d3d3;
-  }
+  color: #202b47;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
 
 .signs img:hover {
-    color: #202b47;
-    background-color: rgb(250, 234, 55);
-    box-shadow: #d3d3d3;
-  }
+  color: #202b47;
+  background-color: rgb(250, 234, 55);
+  box-shadow: #d3d3d3;
+}
 
-  .signs h2 {
-    font-size: 2em;
-    font-family: 'Berkshire Swash', cursive;
-    text-align: center;
-  }
+.signs h2 {
+  font-size: 2em;
+  font-family: 'Berkshire Swash', cursive;
+  text-align: center;
+}
 
-  .info {
-    font-size: 1.5em;
-    color: lightyellow;
-    margin: 30px;
-    font-family: serif;
-  }
+.col {
+  flex: 1;
+}
 
-  .info:visited{
-      text-decoration: none;
-      color:lightyellow
-  }
+.info {
+  font-size: 1.5em;
+  color: lightyellow;
+  margin: 30px;
+  font-family: serif;
+}
 
-  .birth-chart {
-      text-align: center;
-  }
+.info:visited {
+  text-decoration: none;
+  color: lightyellow
+}
 
-  .birth-chart img {
-    border: black 10px solid;
-  }
+.birth-chart {
+  text-align: center;
+}
 
-  .chart {
-    text-align: center;
-  }
+.birth-chart img {
+  border: black 10px solid;
+  width:97%
+}
 
-  .chart a {
-    font-size: 1.6em;
-    font-family: 'Berkshire Swash', cursive;
-    color: lightyellow;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 5px;
-    transition: color 1s, background-color 0.5s;
-  }
+.chart {
+  text-align: center;
+}
 
-  .chart a:hover {
-    color: #202b47;
-    background-color: #fff;
-    box-shadow: #d3d3d3;
-  }
+.chart a {
+  font-size: 1.6em;
+  font-family: 'Berkshire Swash', cursive;
+  color: lightyellow;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: color 1s, background-color 0.5s;
+}
 
-  /* Popup container */
+.chart a:hover {
+  color: #202b47;
+  background-color: #fff;
+  box-shadow: #d3d3d3;
+}
+
+/* Popup container */
 .popup {
   position: relative;
   display: inline-block;
@@ -181,11 +193,47 @@ body {
 
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav, .signs {
+   flex-direction: column;
+  }
+
+  .nav {
+    padding:60px;
+    text-align:center
+  }
+
+  #carousel img {
+    width: 400px;
+  }
+
+  #carousel h1{
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #birth-chart img{
+    width:200px
+  }
+  
+  p {
+    text-align: center;
+  }
 }
