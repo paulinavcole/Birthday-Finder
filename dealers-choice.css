@@ -1,13 +1,14 @@
 body {
-    background-image: url(https://wallpapercave.com/dwp2x/wp2741771.jpg);
-    color:white
+    color:lightyellow;
+    background-color:rgb(50, 47, 47);
+
 }
 
 .nav {
     list-style-type: none;
     padding:0;
     display:flex;
-    background-color:rgb(58, 57, 60);
+    background-color:rgb(50, 47, 47);
     align-items: center;
     width:100%;
     height: 60px;
@@ -20,8 +21,8 @@ body {
 
 .nav a {
     font-size: 1.6em;
-    font-family: 'Pacifico', cursive;
-    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    color: lightyellow;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
@@ -43,7 +44,8 @@ body {
    }
   
   #carousel .carousel-image {
-    position: absolute; display: block; margin: auto; min-width: 75%; height: 75%; opacity: 1; transition: opacity 1.5s; 
+    position: absolute; display: block; margin: auto; min-width: 60%; height: 75%; opacity: 1; transition: opacity 1.5s; 
+    border: black 10px solid;
    } 
   
   #carousel .carousel-image.hidden {
@@ -57,30 +59,23 @@ body {
    }
 
 .signs {
-    list-style-type: none;
-    padding:0;
     display:flex;
-    flex-wrap: wrap;
-    background-color:rgb(58, 57, 60);
-    align-items: center;
-    width:100%;
-    height: 60px;
+    background-color:rgb(50, 47, 47);
+    border: black 10px solid; 
 }
 
-.signs div {
+.col{
     flex: 1;
-    justify-content: space-around;
 }
+
 
 .signs a {
     font-size: 1.6em;
-    font-family: 'Pacifico', cursive;
-    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    color: lightyellow;
     text-decoration: none;
     padding: 5px;
     border-radius: 5px;
-    width: calc(100%/6);
-    flex-wrap: wrap;
     transition: color 1s, background-color 0.5s;
 }
 
@@ -88,4 +83,24 @@ body {
     color: #202b47;
     background-color: #fff;
     box-shadow: #d3d3d3;
+  }
+
+  .info {
+    font-size: 1.5em;
+    color: lightyellow;
+    margin: 30px;
+    font-family: fantasy;
+  }
+
+  .info:visited{
+      text-decoration: none;
+      color:lightyellow
+  }
+
+  .birth-chart {
+      text-align: center;
+  }
+
+  .birth-chart img {
+    border: black 10px solid;
   }
