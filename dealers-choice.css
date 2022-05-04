@@ -198,6 +198,13 @@ body {
   animation: fadeIn 1s
 }
 
+#submit, #date-input {
+  font-size: 1.6em;
+  font-family: 'Berkshire Swash', cursive;
+  background-color: black;
+  color: lightyellow;
+}
+
 /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
   from {
