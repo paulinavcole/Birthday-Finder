@@ -20,3 +20,8 @@ function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
   }
+
+//pulls date from input field
+let dateControl = document.querySelector('input[type="date"]');
+console.log(dateControl.value); 
+
