@@ -13,6 +13,8 @@
   - or anything else you can think of!
 
 Created Website about Astrology to uncover more about the secrets of the self! Functionality includes:
-- being able to pull your star sign
+- being able to interactively pull your star sign
+- hidden pop-ups
+- scrolling images
 - info about astrology
 - links to horoscopes
